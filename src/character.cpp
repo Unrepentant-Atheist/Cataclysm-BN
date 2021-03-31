@@ -4233,7 +4233,7 @@ std::pair<std::string, nc_color> Character::get_hunger_description() const
         hunger_string = _( "Hungry" );
         hunger_color = c_yellow;
     } else if( days_max / days_left < 2.0f ) {
-        hunger_string = _( "Very Hungry" );
+        hunger_string = _( "Very hungry" );
         hunger_color = c_yellow;
     } else if( days_left > 1 ) {
         hunger_string = _( "Famished" );
